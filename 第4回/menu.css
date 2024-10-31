@@ -1,7 +1,7 @@
 ul.ddmenu{
   margin:0px;
   padding:0px 0px 0px 15px;
-  background-color:#0055ff;
+  background-color:#00ffff;
 }
 
 ul.ddmenu li{
@@ -12,7 +12,7 @@ ul.ddmenu li{
 }
 
 ul.ddmenu a{
-  background-color:green;
+  background-color:pink;
   color:blue;
   line-height:40px;
   text-align:center;
@@ -29,7 +29,7 @@ ul.ddmenu ul{
 }
 
 ul.ddmenu a:hover{
-  background-color:#0022ff;
+  background-color:#0088ff;
   color:white;
 }
 
