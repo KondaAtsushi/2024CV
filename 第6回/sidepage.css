@@ -1,0 +1,79 @@
+#restaurant_info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+#restaurant_title{
+    font-size: 30px;
+}
+
+.canpas{
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 15px;
+    width:500px;
+}
+
+.canpas b{
+    font-size: 25px;
+}
+
+.canpas span{
+    font-size: larger;
+}
+
+.report{
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    margin: 10px;
+    padding: 20px;
+}
+
+.report span{
+    border-bottom:double 6px red;
+}
+
+.meat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: large;
+}
+
+#menu{
+    background: rgba(241, 254, 255, 0.5);
+    margin:30px;
+    padding: 20px;
+}
+
+#menu img{
+    height: 70%;
+    width: 100%;
+}
+
+
+#menu h1{
+    background-color: rgb(255, 247, 240);
+}
+
+#window{
+    border: solid 7px brown;
+    background-color: rgb(99, 89, 67);
+    margin: 20px;
+}
+
+section{
+    width: 350px;
+    height: 500px;
+    max-width: 400px;
+    min-width: 300px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border:solid 5px rgb(255, 255, 255);
+    margin: 10px;
+}

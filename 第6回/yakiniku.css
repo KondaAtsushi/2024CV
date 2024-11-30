@@ -1,1 +1,163 @@
+body{
+    background-color: rgb(249, 234, 196);
+    background-size: cover;
+    font-family:"sans-serif";
+}
 
+header{
+    text-align: center;
+    background-color:rgb(210, 175, 135);
+    border:solid 6px rgb(113, 88, 11);
+}
+
+
+header img{
+    width: 60%;
+}
+
+#title{
+    font-size: 60px;
+    font-family:  'arial black',serif;
+}
+
+#list{
+    font-size: 15px;
+}
+
+.v-center{
+    display: flex;
+    align-items: center;
+}
+
+
+header .v-center{
+    font-size: 30px;
+}
+
+main{
+    text-align: center;
+    margin: 30px;
+    background-image: url(sumi.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+
+.B_movement{
+    margin-top:5px;
+    width:33%;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.441);
+    border:solid 3px  rgb(99, 89, 67);
+}
+
+:hover.B_movement{
+    background-color: rgb(99, 89, 67);
+    color: white;
+}
+
+#motto{
+    font-family:'arialblack','fantasy',sans-serif;
+    font-size: 30px;
+    font-weight: 1000;
+    text-align: center;
+    background-color: rgb(183, 156, 120);
+    margin: 20px;
+    padding: 20px;
+
+}
+
+#motto span{
+    font-size: 50px;
+    color: brown;
+}
+
+#motto #motto_content{
+    background-color: rgba(255, 255, 255, 0.441);
+    border: solid 5px white;
+    border-radius:10px;
+}
+
+.this_restaurant{
+    padding: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image: url(mise.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items:center;
+    font-weight: 1000;
+}
+
+#intro{
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255,0.7);
+    border: solid 30px rgba(255, 255, 255,1);
+}
+
+.map{
+    background: rgba(222, 185, 185, 0.76);
+    margin: 50px;
+    border:solid 10px rgb(190, 102, 102);
+}
+
+
+
+#oshinagaki{
+    background-color: rgb(99, 89, 67);
+    text-align: center;
+    padding: 20px;
+    margin:20px;
+}
+
+#menu_title{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: 1000;
+    border-bottom:solid 10px brown;
+}
+
+#menu_lit{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+
+.menu_frame{
+    width: 45%;
+    height: 500px;
+    font-size: 12px;
+    margin:10px;
+    color: white;
+    border:solid 5px rgb(255, 255, 255);
+    background-color: rgba(109, 107, 108, 0.432);
+}
+
+#menu_detail{
+    width:400px;
+    height: 70px;
+    font-size: 25px;
+    background-color: rgb(255, 255, 255);
+    border:solid 5px rgba(109, 107, 108, 0.432);
+    border-radius: 10px;
+}
+
+:hover#menu_detail{
+    transform: scale(0.95);
+}
+
+#detail{
+    text-align: center;
+    background-color: rgb(210, 175, 135);
+    line-height: 10px;
+    padding:20px;
+    font-size:15px;
+}

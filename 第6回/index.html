@@ -1,50 +1,76 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>やきにく</title>
-<link rel="stylesheet" href="yakiniku.css">
-</head>
-<body>
-  <header>店名　牛工大
-場所　〒000-0000 焼肉市美食町1-2-3
-地図は、掲載するならば適当で！
-電話番号　000-456-7890
-メール　info@yakiniki.umai.up
-  </header>
-<p></p>
-モットー　中途半端なものは提供しません。一流の肉を格安で！
 
-<div>メニュー
-<div>
-☆牛肉
-・工大カルビ
-骨と骨の間の旨味の詰まった部位を丁寧にカット
-・カルビ
-牛肉のうまみ、甘味と香りが楽しめます。最も人気のある定番メニューのひとつ。
-・ハラミ
-国民のアイドル！お店一押し
-</div>
-<div>
-☆豚肉
-・トンたん塩
-コリコリ食感を楽しむ。牛タンでなくても満足できます。
-・やみつき豚ホルモン
-この食感クセになる
-</div>
-  <div>
-鶏肉
-・ハラミ付きヤゲン
-ジューシーなハラミがついた、コリコリの軟骨
-・とりもも
-お子様にも人気。やわらかくてジューシー
+<head>
+  <meta charset="utf-8">
+  <title>牛工大</title>
+  <link rel="stylesheet" href="yakiniku.css">
+</head>
+
+<body>
+  <header>
+    <img src="Store.png" alt="お店のロゴ">
+  </header>
+
+  <div id="move">
+    <button class="B_movement" onclick="location.href='menu.html'">メニュー</button>
+    <button class="B_movement" onclick="location.href='access.html'">店舗情報</button>
+    <button class="B_movement" onfocus=""  onclick="location.href='event.html'">イベント情報</button>
+  </div>
+
+  <nav id="list">
+    <ul>
+    <a href="index.html">Home</a> >
+    </ul>
+  </nav>
+
+  <div id="motto">
+    <div id="motto_content">
+     <p>中途半端なものは提供しません。</p>
+     <p><span>一流の肉</span>を<span>格安</span>で！</p>
+    </div>
+     <img src="yakiniku_party.png" alt="お店のロゴ">
+  </div>
+  <div class="this_restaurant">
+    <div id="intro">
+    <p>~当店について~</p>
+    <p>当店は、しちりんを使った本格炭火焼肉店です。</p>
+    <p>炭火焼肉でも煙などの排気には最新鋭の換気システムを導入しています。</p>
+    <p>オーダーは、タッチパネルから行ってください。</p>
+    <p>会計は、キャッシュレス歓迎、キャッシュレスの場合は１０％オフ</p>
+    </div>
+  </div>
+
+<div id="oshinagaki"> 
+  <div id="menu_title">おしながき</div>
+<div id="menu_lit">
+  <div class="menu_frame">
+    <h1> メインメニュー</h1>
+
+    <u><h1> 豚肉 </h1></u>
+    <p><h3>・トンタン塩</h3></p>
+    <p><h3>・やみつき豚ホルモン</h3></p>
+
+    <u><h1> 牛肉 </h1></u>
+    <p><h3>・工大カルビ</h3></p>
+    <p><h3>・カルビ</h3></p>
+    <p><h3>・ハラミ</h3></p>
+
+    <u><h1> 鶏肉 </h1></u>
+    <p><h3>・ハラミ付きヤゲン</h3></p>
+    <p><h3>・とりもも</h3></p>
   </div>
 </div>
+<button id="menu_detail" onclick="location.href='menu.html'"> >>> メニュー詳細はこちら <<<</button>
+</div>
 
-当店について
-当店は、しちりんを使った本格炭火焼肉店です。
-炭火焼肉でも煙などの排気には最新鋭の換気システムを導入しています。
-オーダーは、タッチパネルから行ってください。
-会計は、キャッシュレス歓迎、キャッシュレスの場合は１０％オフ
+  <div id="detail">
+    <p><u>所在地 : 〒000-0000 焼肉市美食町1-2-3</u></p>
+    <p><u>Tel : 000-456-7890</u></p>
+    <p><u>Mail : good_info@yakiniki.umai.up</u></p>
+  </div>
+
+
 </body>
+
 </html>
