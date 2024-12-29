@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(249, 234, 196);
+    background-size: cover;
+    font-family:"sans-serif";
+}
+
+header{
+    text-align: center;
+    background-color:rgb(210, 175, 135);
+    border:solid 6px rgb(113, 88, 11);
+}
+
+header img{
+    width: 450px;
+}
+
+#bg-motto{
+    background-color: rgb(183, 156, 120);
+}
+
+#bg-motto img{
+    width:450px;
+    height: 400px;
+}
+
+#bg-motto span{
+    font-size: 50px;
+    color: brown;
+}
+
+#bg-thisrestaurant{
+    background-image: url(mise.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#bg-intro{
+    background-color: rgba(255, 255, 255,0.7);
+    border: solid 30px rgba(255, 255, 255,1);
+}
+
+
+#bg-oshinagaki{
+    background-color: rgb(210, 175, 135);
+}

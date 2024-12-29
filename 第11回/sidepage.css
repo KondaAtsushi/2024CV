@@ -1,0 +1,28 @@
+#event span{
+    border-bottom:double 6px red;
+}
+
+#menu img{
+    height: 70%;
+    width: 100%;
+}
+
+#menu h1{
+    background-color: rgb(99, 207, 226);
+}
+
+#window{
+    border: solid 7px brown;
+    margin: 20px;
+}
+
+section{
+    width: 350px;
+    height: 500px;
+    max-width: 400px;
+    min-width: 300px;
+    background-color: aliceblue;
+    margin-bottom: 20px;
+    border:solid 5px rgb(255, 255, 255);
+    margin: 10px;
+}
